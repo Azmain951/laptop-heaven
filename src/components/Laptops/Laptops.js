@@ -14,8 +14,14 @@ const Laptops = () => {
     }, []);
 
     const handleAddToWishlist = (laptop) => {
-        const newWishlist = [...wishlist, laptop];
-        setWishlist(newWishlist);
+        if (wishlist.length < 4) {
+            const newWishlist = [...wishlist, laptop];
+            setWishlist(newWishlist);
+        }
+        else {
+            alert("Can't add more than 4 items to the wishlist!!!")
+        }
+
     }
 
     const clearWishlist = () => {
