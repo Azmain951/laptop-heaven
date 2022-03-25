@@ -10,3 +10,10 @@
     grid-template-columns: repeat(3,1fr);
     gap: 4%;
 }
+
+.cart-container{
+    background-color: gainsboro;
+    height: 500px;
+    margin: 12% 3%;
+    padding: 20px;
+}

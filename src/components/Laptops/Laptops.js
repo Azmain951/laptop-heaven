@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import Laptop from '../Laptop/Laptop';
+import Wishlist from '../Wishlist/Wishlist';
 import './Laptops.css'
 
 const Laptops = () => {
 
     const [laptops, SetLaptops] = useState([]);
+    const [wishlist, setWishlist] = useState([]);
     useEffect(() => {
         fetch('laptops.json')
             .then(res => res.json())
@@ -12,7 +14,8 @@ const Laptops = () => {
     }, []);
 
     const handleAddToWishlist = (laptop) => {
-        console.log(laptop.name);
+        const newWishlist = [...wishlist, laptop];
+        setWishlist(newWishlist);
     }
 
     return (
@@ -25,7 +28,10 @@ const Laptops = () => {
                     }
                 </div>
                 <div className="cart-container">
-                    <h3>This is Cart Container</h3>
+                    <h3>My Wishlist</h3>
+                    {
+                        wishlist.map(item => <Wishlist item={item}></Wishlist>)
+                    }
                 </div>
             </div>
         </div>
