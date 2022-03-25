@@ -29,6 +29,11 @@ const Laptops = () => {
         setWishlist(finalItem);
     }
 
+    const removeItem = (id) => {
+        const newWishlist = wishlist.filter(item => item.id !== id);
+        setWishlist(newWishlist)
+    }
+
     return (
         <div>
             <div className='shop'>
@@ -40,7 +45,7 @@ const Laptops = () => {
                 <div className="cart-container">
                     <h3>My Wishlist</h3>
                     {
-                        wishlist.map(item => <Wishlist item={item}></Wishlist>)
+                        wishlist.map(item => <Wishlist key={item.id} item={item} removeItem={removeItem}></Wishlist>)
                     }
                     <button onClick={chooseFromWishlist} className='clearWishlist'>
                         <p>Choose One</p>

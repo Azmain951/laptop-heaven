@@ -4,10 +4,16 @@
 }
 
 .wishlist p {
-    margin-left: 15px; 
+    margin-right: 10px;
 }
 
 .wishlist img{
     width: 28px;
     border: 1px solid whitesmoke;
+    margin-right: 15px;
+}
+
+.wishlist button{
+    border: none;
+    background-color: gainsboro;
 }
