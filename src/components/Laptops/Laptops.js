@@ -31,7 +31,6 @@ const Laptops = () => {
 
     return (
         <div>
-            <h3>Welcome to Laptop Heaven</h3>
             <div className='shop'>
                 <div className="laptops-container">
                     {

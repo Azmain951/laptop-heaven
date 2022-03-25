@@ -8,8 +8,10 @@ const Laptop = ({ laptop, handleAddToWishlist }) => {
     return (
         <div className='laptop-container'>
             <img src={img} alt="" />
-            <p>{name}</p>
-            <p>Price: ${price}</p>
+            <div className="laptop-details">
+                <h3>{name}</h3>
+                <p>Price: ${price}</p>
+            </div>
             <button onClick={() => handleAddToWishlist(laptop)} className='addToWishlist'>
                 <p>Add to Wishlist</p>
                 <FontAwesomeIcon icon={faCartPlus}></FontAwesomeIcon>

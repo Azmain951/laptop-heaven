@@ -1,6 +1,7 @@
 .shop{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    margin-top: 3%;
 }
 
 .laptops-container{
@@ -29,3 +30,23 @@
     padding: 0 30px;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 576px) {
+    .shop{
+        display: flex;
+        flex-direction: column;
+    }
+    .laptops-container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        order: 1;
+    }
+    .cart-container{
+        order: 0;
+        position: relative;
+        height: auto;
+    }
+    .clearWishlist{
+        display: block;
+    }
+}   

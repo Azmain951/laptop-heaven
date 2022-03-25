@@ -10,6 +10,10 @@
     border-radius: 10px 10px 0 0;
 }
 
+.laptop-details{
+    margin-left: 10px;
+}
+
 .addToWishlist{
     display: flex;
     align-items: center;
@@ -28,4 +32,12 @@
 .addToWishlist p{
     margin-right: 5px;
     margin-left: 30%;
+}
+
+@media screen and (max-width:576px) {
+
+    .laptop-container{
+        height: 500px;
+    }
+
 }
