@@ -4,7 +4,7 @@ import './Questions.css'
 const Questions = () => {
     return (
         <div className='qna'>
-            <h2>Questions & Answers</h2>
+            <h2 className='qna-header'>Questions & Answers</h2>
             <ul>
                 <li>
                     <h3>Props vs State</h3>

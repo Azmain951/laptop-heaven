@@ -17,7 +17,7 @@
     position: sticky;
     top: 0;
     background-color: gainsboro;
-    height: 500px;
+    height: auto;
     margin: 12% 3%;
     padding: 20px;
     border-radius: 10px;

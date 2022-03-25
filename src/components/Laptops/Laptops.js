@@ -36,10 +36,16 @@ const Laptops = () => {
     }
 
     const chooseFromWishlist = () => {
-        let finalItem = [];
-        const randomItem = wishlist[Math.floor(Math.random() * wishlist.length)];
-        finalItem.push(randomItem);
-        setWishlist(finalItem);
+        if (wishlist.length > 1) {
+            let finalItem = [];
+            const randomItem = wishlist[Math.floor(Math.random() * wishlist.length)];
+            finalItem.push(randomItem);
+            setWishlist(finalItem);
+        }
+
+        else {
+            alert("Please Select minimum two items")
+        }
     }
 
     const removeItem = (id) => {
