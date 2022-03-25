@@ -1,0 +1,74 @@
+[
+    {
+        "id": "623dd11a16d556dab640c80c",
+        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "price": 560,
+        "name": "Dell Laptop1"
+    },
+    {
+        "id": "623dd11a026c08ac00af4e2c",
+        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "price": 560,
+        "name": "Dell Laptop2"
+    },
+    {
+        "id": "623dd11aaceb0104203ff7d1",
+        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "price": 560,
+        "name": "Dell Laptop3"
+    },
+    {
+        "id": "623dd11a11de835593424478",
+        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "price": 560,
+        "name": "Dell Laptop4"
+    },
+    {
+        "id": "623dd11a062822735a041a90",
+        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "price": 560,
+        "name": "Dell Laptop5"
+    },
+    {
+        "id": "623dd11ad0d1818cdd74b40b",
+        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "price": 560,
+        "name": "Dell Laptop6"
+    },
+    {
+        "id": "623dd11ab4fac7983cdbf2fb",
+        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "price": 560,
+        "name": "Dell Laptop7"
+    },
+    {
+        "id": "623dd11ad7bf5fadc911e5f1",
+        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "price": 560,
+        "name": "Dell Laptop8"
+    },
+    {
+        "id": "623dd11a4c5cc94bdafa5aa1",
+        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "price": 560,
+        "name": "Dell Laptop9"
+    },
+    {
+        "id": "623dd11a62ee78493448c1a0",
+        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "price": 560,
+        "name": "Dell Laptop10"
+    },
+    {
+        "id": "623dd11abca9251846f83378",
+        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "price": 560,
+        "name": "Dell Laptop11"
+    },
+    {
+        "id": "623dd11a1b957f245a5575ab",
+        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "price": 560,
+        "name": "Dell Laptop12"
+    }
+]
