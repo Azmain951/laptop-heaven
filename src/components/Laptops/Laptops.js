@@ -15,8 +15,15 @@ const Laptops = () => {
 
     const handleAddToWishlist = (laptop) => {
         if (wishlist.length < 4) {
-            const newWishlist = [...wishlist, laptop];
-            setWishlist(newWishlist);
+
+            const duplicate = wishlist.find(item => item.id === laptop.id)
+            if (duplicate) {
+                alert("Can't Add the Same item again!!!")
+            }
+            else {
+                const newWishlist = [...wishlist, laptop];
+                setWishlist(newWishlist);
+            }
         }
         else {
             alert("Can't add more than 4 items to the wishlist!!!")
