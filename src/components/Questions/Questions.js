@@ -21,7 +21,9 @@ const Questions = () => {
                 </li>
                 <li>
                     <h3>How React works?</h3>
-                    <p></p>
+                    <p>
+                        Instead of making changes directly on the actual dom, react create a copy of the actual dom known as virtual dom. If any state changes React creates another virtual dom, then it compares the new dom with the pervious virtual dom using the diff algorithms and identifies the changes. Then finally updates the changes on the actual dom.
+                    </p>
                 </li>
             </ul>
 
