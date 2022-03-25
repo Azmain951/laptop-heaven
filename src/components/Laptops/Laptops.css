@@ -12,8 +12,20 @@
 }
 
 .cart-container{
+    position: sticky;
+    top: 0;
     background-color: gainsboro;
     height: 500px;
     margin: 12% 3%;
     padding: 20px;
+    border-radius: 10px;
+}
+
+.clearWishlist{
+    border: none;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    padding: 0 30px;
+    margin-bottom: 10px;
 }

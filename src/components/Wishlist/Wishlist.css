@@ -1,7 +1,10 @@
 .wishlist{
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+
+.wishlist p {
+    margin-left: 15px; 
 }
 
 .wishlist img{

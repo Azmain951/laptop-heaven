@@ -18,6 +18,17 @@ const Laptops = () => {
         setWishlist(newWishlist);
     }
 
+    const clearWishlist = () => {
+        setWishlist([]);
+    }
+
+    const chooseFromWishlist = () => {
+        let finalItem = [];
+        const randomItem = wishlist[Math.floor(Math.random() * wishlist.length)];
+        finalItem.push(randomItem);
+        setWishlist(finalItem);
+    }
+
     return (
         <div>
             <h3>Welcome to Laptop Heaven</h3>
@@ -32,6 +43,13 @@ const Laptops = () => {
                     {
                         wishlist.map(item => <Wishlist item={item}></Wishlist>)
                     }
+                    <button onClick={chooseFromWishlist} className='clearWishlist'>
+                        <p>Choose One</p>
+                    </button>
+
+                    <button onClick={clearWishlist} className='clearWishlist'>
+                        <p>Clear Wishlist</p>
+                    </button>
                 </div>
             </div>
         </div>
