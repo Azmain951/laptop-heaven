@@ -3,14 +3,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Laptop.css'
 
-const Laptop = ({ laptop }) => {
+const Laptop = ({ laptop, handleAddToWishlist }) => {
     const { name, img, price } = laptop;
     return (
         <div className='laptop-container'>
             <img src={img} alt="" />
             <p>{name}</p>
             <p>Price: ${price}</p>
-            <button className='addToWishlist'>
+            <button onClick={() => handleAddToWishlist(laptop)} className='addToWishlist'>
                 <p>Add to Wishlist</p>
                 <FontAwesomeIcon icon={faCartPlus}></FontAwesomeIcon>
             </button>

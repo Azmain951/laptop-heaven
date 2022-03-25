@@ -11,13 +11,17 @@ const Laptops = () => {
             .then(data => SetLaptops(data))
     }, []);
 
+    const handleAddToWishlist = (laptop) => {
+        console.log(laptop.name);
+    }
+
     return (
         <div>
             <h3>Welcome to Laptop Heaven</h3>
             <div className='shop'>
                 <div className="laptops-container">
                     {
-                        laptops.map(laptop => <Laptop key={laptop.id} laptop={laptop}></Laptop>)
+                        laptops.map(laptop => <Laptop key={laptop.id} laptop={laptop} handleAddToWishlist={handleAddToWishlist}></Laptop>)
                     }
                 </div>
                 <div className="cart-container">
