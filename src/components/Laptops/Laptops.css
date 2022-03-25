@@ -32,6 +32,10 @@
     margin-bottom: 10px;
 }
 
+.clearWishlist:hover{
+    background-color: rgba(128, 128, 128, 0.801);
+}
+
 @media screen and (max-width: 576px) {
     .shop{
         display: flex;

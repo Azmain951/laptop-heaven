@@ -2,73 +2,73 @@
     {
         "id": "623dd11a16d556dab640c80c",
         "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
-        "price": 560,
-        "name": "Dell Laptop1"
+        "price": 460,
+        "name": "Dell"
     },
     {
         "id": "623dd11a026c08ac00af4e2c",
-        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
-        "price": 560,
-        "name": "Dell Laptop2"
+        "img": "https://www.kindpng.com/picc/m/219-2193786_laptop-lenovo-thinkpad-t440-hd-png-download.png",
+        "price": 580,
+        "name": "Lenovo"
     },
     {
         "id": "623dd11aaceb0104203ff7d1",
-        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
-        "price": 560,
-        "name": "Dell Laptop3"
+        "img": "https://images.unsplash.com/photo-1514826786317-59744fe2a548?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFjYm9vayUyMHByb3xlbnwwfHwwfHw%3D&w=1000&q=80",
+        "price": 1120,
+        "name": "Apple"
     },
     {
         "id": "623dd11a11de835593424478",
-        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
-        "price": 560,
-        "name": "Dell Laptop4"
+        "img": "https://www.ubuy.com.bd/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNTE1U1hUSmpVZEwuX0FDX1NMMTI4MF8uanBn.jpg",
+        "price": 620,
+        "name": "HP"
     },
     {
         "id": "623dd11a062822735a041a90",
-        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
-        "price": 560,
-        "name": "Dell Laptop5"
+        "img": "https://www.pngitem.com/pimgs/m/45-451439_asus-laptop-png-picture-asus-laptop-images-png.png",
+        "price": 520,
+        "name": "Asus"
     },
     {
         "id": "623dd11ad0d1818cdd74b40b",
-        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
-        "price": 560,
-        "name": "Dell Laptop6"
+        "img": "https://m.media-amazon.com/images/I/71vvXGmdKWL._AC_SL1500_.jpg",
+        "price": 780,
+        "name": "Acer"
     },
     {
         "id": "623dd11ab4fac7983cdbf2fb",
-        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
-        "price": 560,
-        "name": "Dell Laptop7"
+        "img": "https://www.getsview.com/wp-content/uploads/2018/09/Walton-Prelude-R1-WPR14N34GL-Price-BD.jpg",
+        "price": 420,
+        "name": "Walton"
     },
     {
         "id": "623dd11ad7bf5fadc911e5f1",
-        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
-        "price": 560,
-        "name": "Dell Laptop8"
+        "img": "https://cdn.vox-cdn.com/thumbor/K80IY57kklw5DaLqgtEw43tCobI=/0x0:6500x4000/1200x800/filters:focal(2730x1480:3770x2520)/cdn.vox-cdn.com/uploads/chorus_image/image/70466459/Surface_Laptop_4_Family.0.jpg",
+        "price": 650,
+        "name": "Microsoft"
     },
     {
         "id": "623dd11a4c5cc94bdafa5aa1",
-        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
-        "price": 560,
-        "name": "Dell Laptop9"
+        "img": "https://www.huaweicentral.com/wp-content/uploads/2020/08/huawei-matebook-x-pro-featured-img-1-1000x600.jpg",
+        "price": 850,
+        "name": "Huawei"
     },
     {
         "id": "623dd11a62ee78493448c1a0",
-        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
-        "price": 560,
-        "name": "Dell Laptop10"
+        "img": "https://avita.com/images/liber/liber12_feature/sc2_img1.png",
+        "price": 590,
+        "name": "Avita"
     },
     {
         "id": "623dd11abca9251846f83378",
-        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
-        "price": 560,
-        "name": "Dell Laptop11"
+        "img": "https://www.kindpng.com/picc/m/585-5852395_msi-laptop-hd-png-download.png",
+        "price": 820,
+        "name": "MSI"
     },
     {
         "id": "623dd11a1b957f245a5575ab",
-        "img": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
-        "price": 560,
-        "name": "Dell Laptop12"
+        "img": "https://wallpaperaccess.com/full/4374246.jpg",
+        "price": 1080,
+        "name": "Razer"
     }
 ]
