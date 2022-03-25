@@ -1,0 +1,10 @@
+.laptop-container{
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+.laptop-container img{
+    width: 96%;
+    padding: 2%;
+    border-radius: 10px;
+}

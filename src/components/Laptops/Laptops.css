@@ -1,0 +1,12 @@
+.shop{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.laptops-container{
+    width: 90%;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4%;
+}
