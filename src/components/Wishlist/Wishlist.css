@@ -1,19 +1,29 @@
 .wishlist{
     display: flex;
     align-items: center;
+    background-color:aliceblue;
+    margin-bottom: 5px;
+    padding: 0 12px;
 }
 
 .wishlist p {
-    margin-right: 10px;
+    margin-right: 8px;
+    color: orangered;
+    font-size: large;
 }
 
 .wishlist img{
-    width: 28px;
-    border: 1px solid whitesmoke;
-    margin-right: 15px;
+    width: 32px;
+    border: 2px solid rgb(223, 223, 223);
+    margin-right: 12px;
 }
 
 .wishlist button{
     border: none;
+    color: red;  
+    background-color: aliceblue; 
+}
+
+.wishlist button:hover{
     background-color: gainsboro;
 }

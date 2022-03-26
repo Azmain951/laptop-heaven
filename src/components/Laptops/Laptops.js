@@ -1,5 +1,8 @@
+import { faCircleCheck, faTrashCan } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import Laptop from '../Laptop/Laptop';
+import SelectedItem from '../SelectedItem/SelectedItem';
 import Wishlist from '../Wishlist/Wishlist';
 import './Laptops.css'
 
@@ -7,6 +10,8 @@ const Laptops = () => {
 
     const [laptops, SetLaptops] = useState([]);
     const [wishlist, setWishlist] = useState([]);
+    const [selectedItem, setSelectedItem] = useState([]);
+
     useEffect(() => {
         fetch('laptops.json')
             .then(res => res.json())
@@ -14,6 +19,7 @@ const Laptops = () => {
     }, []);
 
     const handleAddToWishlist = (laptop) => {
+        setSelectedItem([]);
         if (wishlist.length < 4) {
 
             const duplicate = wishlist.find(item => item.id === laptop.id)
@@ -33,14 +39,15 @@ const Laptops = () => {
 
     const clearWishlist = () => {
         setWishlist([]);
+        setSelectedItem([]);
     }
 
     const chooseFromWishlist = () => {
         if (wishlist.length > 1) {
-            let finalItem = [];
+            setWishlist([])
             const randomItem = wishlist[Math.floor(Math.random() * wishlist.length)];
-            finalItem.push(randomItem);
-            setWishlist(finalItem);
+            setSelectedItem(randomItem);
+
         }
 
         else {
@@ -68,11 +75,14 @@ const Laptops = () => {
                     }
                     <button onClick={chooseFromWishlist} className='clearWishlist'>
                         <p>Choose One</p>
+                        <FontAwesomeIcon icon={faCircleCheck}></FontAwesomeIcon>
                     </button>
 
                     <button onClick={clearWishlist} className='clearWishlist'>
                         <p>Clear Wishlist</p>
+                        <FontAwesomeIcon icon={faTrashCan}></FontAwesomeIcon>
                     </button>
+                    <SelectedItem key={selectedItem.id} selectedItem={selectedItem}></SelectedItem>
                 </div>
             </div>
         </div>

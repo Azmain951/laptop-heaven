@@ -1,0 +1,16 @@
+.selectedItemDetails{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 0 20px;
+    border-radius: 2px;
+    color: forestgreen;
+}
+.selectedItemDetails img{
+    margin-right: 20px;
+    width: 40px;
+}
+
+.selectedItemDetails h3{
+    margin-right: 15px;
+}
